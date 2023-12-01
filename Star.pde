@@ -10,7 +10,7 @@ public class Star{
   }
   public void show(){
     fill(255,255,255);
-    rect(x,y,2,2);
+    rect(x,y,1,1);
     noFill();
   }
   public int getX(){return x;}
