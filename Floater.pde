@@ -48,6 +48,7 @@ class Floater {
   }   
   public void show ()  //Draws the floater at the current position  
   {             
+    noStroke();
     fill(myColor);   
     
     //translate the (x,y) center of the ship to the correct position
@@ -71,4 +72,11 @@ class Floater {
     rotate(-1*dRadians);
     translate(-1*(float)myCenterX, -1*(float)myCenterY);
   }   
+  
+  public double getX(){
+    return myCenterX;
+  }
+  public double getY(){
+    return myCenterY;
+  }
 } 
