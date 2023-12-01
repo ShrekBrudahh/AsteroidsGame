@@ -32,4 +32,5 @@ class Spaceship extends Floater {
    public double getSpeed(){
      return Math.sqrt(myXspeed*myXspeed + myYspeed*myYspeed);
    }
+   
 }
