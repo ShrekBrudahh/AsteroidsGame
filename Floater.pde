@@ -79,4 +79,13 @@ class Floater {
   public double getY(){
     return myCenterY;
   }
+   public double getSX(){
+    return myXspeed;
+  }
+  public double getSY(){
+    return myYspeed;
+  }
+  public double mPD(){
+    return myPointDirection;
+  }
 } 
